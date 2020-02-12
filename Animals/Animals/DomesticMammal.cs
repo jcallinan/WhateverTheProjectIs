@@ -9,6 +9,7 @@ namespace Animals
     public abstract class DomesticMammal: Mammal
     {
         public string Name { get; private set; }
+        public string NickName { get; private set; }
         public string FavoriteToy { get; set; }
         private void Init(string name, string favoriteToy)
         {
